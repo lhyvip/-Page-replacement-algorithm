@@ -1,0 +1,65 @@
+1.const int num=20
+首先定义一个总类Page{
+private
+int page_dirtion[num];//页面走向
+int wu1[num]；//物理块1
+int wu2[num]；//定义物理块2
+int wu3[num]；//物理块3
+bool lack_page[num];//缺页
+
+
+public
+定义从文件read（）方法
+写入文件write（）方法
+setpage_dirtion(int i,int page){
+page_dirtion
+}
+setwu1()
+setwu2()
+setwu3()
+getwu1()
+getwu2()
+getwu3()
+
+void carry_out();执行函数
+
+}
+
+
+2.子类OPT继承Page
+{
+
+实现carry_out()
+
+}
+3.子类LRU继承Page
+{
+
+实现carry_out()
+
+}
+4.子类LFU继承Page
+{
+
+实现carry_out()
+
+}
+5.子类Clock继承Page
+{
+
+实现carry_out()
+
+}
+6.子类SWAP继承Page
+{
+
+实现Carry_out()
+
+}
+7.子类FIFO继承Page
+{
+
+实现carry_out()
+
+}
+8.main(){}

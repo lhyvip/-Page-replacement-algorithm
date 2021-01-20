@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Page" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Page" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Page" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Clock.cpp" />
+		<Unit filename="Clock.h" />
+		<Unit filename="FIFO.cpp" />
+		<Unit filename="FIFO.h" />
+		<Unit filename="LFU.cpp" />
+		<Unit filename="LFU.h" />
+		<Unit filename="LRU.cpp" />
+		<Unit filename="LRU.h" />
+		<Unit filename="OPT.cpp" />
+		<Unit filename="OPT.h" />
+		<Unit filename="Page.cpp" />
+		<Unit filename="Page.h" />
+		<Unit filename="clock.txt" />
+		<Unit filename="data1.txt" />
+		<Unit filename="data_clock.txt" />
+		<Unit filename="fifo.txt" />
+		<Unit filename="jiagou.txt" />
+		<Unit filename="lfu.txt" />
+		<Unit filename="lru.txt" />
+		<Unit filename="main.cpp" />
+		<Unit filename="opt.txt" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

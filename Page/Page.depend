@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1610553660 source:c:\users\梁瀚余\desktop\大三学习文档\操作系统\code\page\main.cpp
+	<iostream>
+	"FIFO.h"
+	"LRU.h"
+	"Clock.h"
+	"LFU.h"
+	"OPT.h"
+
+1610527973 c:\users\梁瀚余\desktop\大三学习文档\操作系统\code\page\fifo.h
+	"Page.h"
+
+1610554565 c:\users\梁瀚余\desktop\大三学习文档\操作系统\code\page\page.h
+	<string.h>
+	<iostream>
+
+1610554089 source:c:\users\梁瀚余\desktop\大三学习文档\操作系统\code\page\fifo.cpp
+	"FIFO.h"
+	<iostream>
+
+1610554613 source:c:\users\梁瀚余\desktop\大三学习文档\操作系统\code\page\page.cpp
+	"Page.h"
+	<iostream>
+	<fstream>
+
+1610553992 source:c:\users\梁瀚余\desktop\大三学习文档\操作系统\code\page\opt.cpp
+	"OPT.h"
+
+1610552681 c:\users\梁瀚余\desktop\大三学习文档\操作系统\code\page\opt.h
+	"Page.h"
+
+1610554006 source:c:\users\梁瀚余\desktop\大三学习文档\操作系统\code\page\lru.cpp
+	"LRU.h"
+
+1610547991 c:\users\梁瀚余\desktop\大三学习文档\操作系统\code\page\lru.h
+	"Page.h"
+
+1610554062 source:c:\users\梁瀚余\desktop\大三学习文档\操作系统\code\page\lfu.cpp
+	"LFU.h"
+
+1610551496 c:\users\梁瀚余\desktop\大三学习文档\操作系统\code\page\lfu.h
+	"Page.h"
+
+1610554146 source:c:\users\梁瀚余\desktop\大三学习文档\操作系统\code\page\clock.cpp
+	"Clock.h"
+	<iostream>
+	<string>
+
+1610549450 c:\users\梁瀚余\desktop\大三学习文档\操作系统\code\page\clock.h
+	"Page.h"
+
